@@ -2,20 +2,6 @@
 
 This project is a simple getting started to Rails as API, using React as the view lib.
 
-It uses a db based on docker, so to run the app it's needed to, first, start up the containter as follows:
+The rails api is located under /api.
 
-```
-docker compose up
-```
-
-Then, create the db using:
-
-```
-rails db:create
-```
-
-and finally, create the migrations:
-
-```
-rails db:migrate
-```
+The react ui is located under /ui.
