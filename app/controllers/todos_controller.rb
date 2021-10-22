@@ -30,6 +30,7 @@ class TodosController < ApplicationController
     end
 
     def destroy
+        @todo.destroy 
     end
 
     private
